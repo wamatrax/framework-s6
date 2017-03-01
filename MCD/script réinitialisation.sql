@@ -4,45 +4,15 @@
 /*==============================================================*/
 
 
-drop index ENVOYEUR_FK;
+drop schema public cascade;
 
-drop index RECEPTEUR_FK;
+create schema public
+  AUTHORIZATION postgres;
 
-drop index AMITIE_PK;
-
-drop table AMITIE;
-
-drop index PUBLICATION_COMMENTEE_FK;
-
-drop index COMMENTATEUR_FK;
-
-drop index COMMENTAIRE_PK;
-
-drop table COMMENTAIRE;
-
-drop index IMAGE_PUBLIEE_FK;
-
-drop index IMAGE_PK;
-
-drop table IMAGE;
-
-drop index MEMBRE_AIME_FK;
-
-drop index PUBLICATION_AIMEE_FK;
-
-drop index JAIME_PK;
-
-drop table JAIME;
-
-drop index MEMBRE_PK;
-
-drop table MEMBRE;
-
-drop index PUBLIEUR_FK;
-
-drop index PUBLICATION_PK;
-
-drop table PUBLICATION;
+GRANT ALL ON SCHEMA public TO postgres;
+GRANT ALL ON SCHEMA public TO public;
+COMMENT ON SCHEMA public
+  IS 'standard public schema';
 
 /*==============================================================*/
 /* Table : AMITIE                                               */
