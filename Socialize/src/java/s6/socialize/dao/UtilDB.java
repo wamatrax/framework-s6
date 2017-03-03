@@ -7,7 +7,7 @@ public class UtilDB {
     public static String password="wawa";
     public static String connURL="jdbc:postgresql://localhost:5432/framework";
     
-    public static Connection getConn() throws Exception {
+    public static Connection getConnection() throws Exception {
         Connection conn= null;
         try {
             Class.forName("org.postgresql.Driver");
