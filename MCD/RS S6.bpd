@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{D198AB0C-4016-4200-8EA8-74112FB5D93D}" Label="" LastModificationDate="1488280016" Name="RS S6" Objects="90" Symbols="14" Target="PostgreSQL 8" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{D198AB0C-4016-4200-8EA8-74112FB5D93D}" Label="" LastModificationDate="1488281933" Name="RS S6" Objects="90" Symbols="14" Target="PostgreSQL 8" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -4687,7 +4687,7 @@ ATT MAND</a:History>
 <a:Code>PGSQL80</a:Code>
 <a:CreationDate>1488279649</a:CreationDate>
 <a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279649</a:ModificationDate>
+<a:ModificationDate>1488281933</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <a:TargetModelURL>file:///%_DBMS%/pgsql8.xdb</a:TargetModelURL>
 <a:TargetModelID>8AF15AEA-CCBC-4EDC-B468-7DB8DB5300B2</a:TargetModelID>
@@ -4700,6 +4700,7 @@ ATT MAND</a:History>
 <a:ObjectID>3D0F61AB-0A86-4C0E-9DB4-2BD017FA6765</a:ObjectID>
 <a:Name>RS S6</a:Name>
 <a:Code>RS_S6</a:Code>
+<a:ExtractionID>4980804</a:ExtractionID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>

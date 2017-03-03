@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{D198AB0C-4016-4200-8EA8-74112FB5D93D}" Label="" LastModificationDate="1488281933" Name="RS S6" Objects="90" Symbols="14" Target="PostgreSQL 8" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{D198AB0C-4016-4200-8EA8-74112FB5D93D}" Label="" LastModificationDate="1488534942" Name="RS S6" Objects="92" Symbols="14" Target="PostgreSQL 8" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" signature="PDM_DATA_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,11 +12,12 @@
 <a:Code>RS_S6</a:Code>
 <a:CreationDate>1488279645</a:CreationDate>
 <a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488280016</a:ModificationDate>
+<a:ModificationDate>1488534932</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <a:History>ORG {91BF26B5-C692-45D3-BCE5-9A45FD670728}
 DAT 1488279656
-ATT FOPT</a:History>
+ATT FOPT
+ATT MOPT</a:History>
 <a:PackageOptionsText>[FolderOptions]
 
 [FolderOptions\Physical Objects]
@@ -2419,6 +2420,7 @@ SaveLinks=Yes
 ORMapping=No
 NameToCode=Yes
 ClassPrefix=
+PreserveMode=Yes
 
 [ModelOptions\Generate\Xsm]
 CheckModel=Yes
@@ -2480,8 +2482,22 @@ PhysOpts=
 
 [ModelOptions\Default Opts\FRMESOB&lt;&lt;ClusterIndex&gt;&gt;]
 PhysOpts=</a:ModelOptionsText>
-<c:GenerationOrigins>
+<c:GeneratedModels>
 <o:Shortcut Id="o3">
+<a:ObjectID>6ECB5945-70AB-474F-B3FC-21C747BF56EA</a:ObjectID>
+<a:Name>RS S6</a:Name>
+<a:Code>RS_S6</a:Code>
+<a:CreationDate>1488534934</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488534934</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>32B267F0-0952-4887-8FB3-0755B02AD93C</a:TargetID>
+<a:TargetClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+</o:Shortcut>
+</c:GeneratedModels>
+<c:GenerationOrigins>
+<o:Shortcut Id="o4">
 <a:ObjectID>86022119-9D3F-4CD2-9EF6-B841543EAAB2</a:ObjectID>
 <a:Name>RS S6</a:Name>
 <a:Code>RS_S6</a:Code>
@@ -2495,7 +2511,7 @@ PhysOpts=</a:ModelOptionsText>
 </o:Shortcut>
 </c:GenerationOrigins>
 <c:DBMS>
-<o:Shortcut Id="o4">
+<o:Shortcut Id="o5">
 <a:ObjectID>2786461F-BFED-441A-B60F-ECB704A86C1A</a:ObjectID>
 <a:Name>PostgreSQL 8</a:Name>
 <a:Code>PGSQL80</a:Code>
@@ -2509,7 +2525,7 @@ PhysOpts=</a:ModelOptionsText>
 </o:Shortcut>
 </c:DBMS>
 <c:PhysicalDiagrams>
-<o:PhysicalDiagram Id="o5">
+<o:PhysicalDiagram Id="o6">
 <a:ObjectID>457116D2-D4AC-41C9-ADA6-FE9045994864</a:ObjectID>
 <a:Name>Diagramme_1</a:Name>
 <a:Code>DIAGRAMME_1</a:Code>
@@ -3118,7 +3134,7 @@ Shadow=0
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>7</a:PaperSource>
 <c:Symbols>
-<o:ReferenceSymbol Id="o6">
+<o:ReferenceSymbol Id="o7">
 <a:ModificationDate>1488279675</a:ModificationDate>
 <a:Rect>((-21450,8851), (-9151,16952))</a:Rect>
 <a:ListOfPoints>((-21450,16952),(-9151,16952),(-9151,8851))</a:ListOfPoints>
@@ -3130,16 +3146,16 @@ Shadow=0
 SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:TableSymbol Ref="o7"/>
+<o:TableSymbol Ref="o8"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:TableSymbol Ref="o8"/>
+<o:TableSymbol Ref="o9"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Reference Ref="o9"/>
+<o:Reference Ref="o10"/>
 </c:Object>
 </o:ReferenceSymbol>
-<o:ReferenceSymbol Id="o10">
+<o:ReferenceSymbol Id="o11">
 <a:ModificationDate>1488279675</a:ModificationDate>
 <a:Rect>((-35576,8476), (-21300,17102))</a:Rect>
 <a:ListOfPoints>((-21300,17102),(-35576,17102),(-35576,8476))</a:ListOfPoints>
@@ -3151,16 +3167,16 @@ DESTINATION 0 Arial,8,N</a:FontList>
 SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:TableSymbol Ref="o7"/>
+<o:TableSymbol Ref="o8"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:TableSymbol Ref="o11"/>
+<o:TableSymbol Ref="o12"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Reference Ref="o12"/>
+<o:Reference Ref="o13"/>
 </c:Object>
 </o:ReferenceSymbol>
-<o:ReferenceSymbol Id="o13">
+<o:ReferenceSymbol Id="o14">
 <a:ModificationDate>1488279692</a:ModificationDate>
 <a:Rect>((-9013,-875), (-8563,8851))</a:Rect>
 <a:ListOfPoints>((-8788,-875),(-8788,8851))</a:ListOfPoints>
@@ -3172,16 +3188,16 @@ DESTINATION 0 Arial,8,N</a:FontList>
 SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:TableSymbol Ref="o14"/>
+<o:TableSymbol Ref="o15"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:TableSymbol Ref="o8"/>
+<o:TableSymbol Ref="o9"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Reference Ref="o15"/>
+<o:Reference Ref="o16"/>
 </c:Object>
 </o:ReferenceSymbol>
-<o:ReferenceSymbol Id="o16">
+<o:ReferenceSymbol Id="o17">
 <a:ModificationDate>1488279695</a:ModificationDate>
 <a:Rect>((-55850,8251), (-35576,8701))</a:Rect>
 <a:ListOfPoints>((-55850,8476),(-35576,8476))</a:ListOfPoints>
@@ -3193,16 +3209,16 @@ DESTINATION 0 Arial,8,N</a:FontList>
 SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:TableSymbol Ref="o17"/>
+<o:TableSymbol Ref="o18"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:TableSymbol Ref="o11"/>
+<o:TableSymbol Ref="o12"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Reference Ref="o18"/>
+<o:Reference Ref="o19"/>
 </c:Object>
 </o:ReferenceSymbol>
-<o:ReferenceSymbol Id="o19">
+<o:ReferenceSymbol Id="o20">
 <a:ModificationDate>1488279695</a:ModificationDate>
 <a:Rect>((-55702,8401), (-35426,8851))</a:Rect>
 <a:ListOfPoints>((-55702,8626),(-35426,8626))</a:ListOfPoints>
@@ -3214,16 +3230,16 @@ DESTINATION 0 Arial,8,N</a:FontList>
 SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:TableSymbol Ref="o17"/>
+<o:TableSymbol Ref="o18"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:TableSymbol Ref="o11"/>
+<o:TableSymbol Ref="o12"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Reference Ref="o20"/>
+<o:Reference Ref="o21"/>
 </c:Object>
 </o:ReferenceSymbol>
-<o:ReferenceSymbol Id="o21">
+<o:ReferenceSymbol Id="o22">
 <a:Rect>((-35576,8513), (-9001,8963))</a:Rect>
 <a:ListOfPoints>((-9001,8738),(-35576,8738))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
@@ -3234,16 +3250,16 @@ DESTINATION 0 Arial,8,N</a:FontList>
 SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:TableSymbol Ref="o8"/>
+<o:TableSymbol Ref="o9"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:TableSymbol Ref="o11"/>
+<o:TableSymbol Ref="o12"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Reference Ref="o22"/>
+<o:Reference Ref="o23"/>
 </c:Object>
 </o:ReferenceSymbol>
-<o:ReferenceSymbol Id="o23">
+<o:ReferenceSymbol Id="o24">
 <a:ModificationDate>1488279703</a:ModificationDate>
 <a:Rect>((-35576,-6031), (-26848,8476))</a:Rect>
 <a:ListOfPoints>((-26848,-6031),(-26848,535),(-35576,535),(-35576,8476))</a:ListOfPoints>
@@ -3255,16 +3271,16 @@ DESTINATION 0 Arial,8,N</a:FontList>
 SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:TableSymbol Ref="o24"/>
+<o:TableSymbol Ref="o25"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:TableSymbol Ref="o11"/>
+<o:TableSymbol Ref="o12"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Reference Ref="o25"/>
+<o:Reference Ref="o26"/>
 </c:Object>
 </o:ReferenceSymbol>
-<o:ReferenceSymbol Id="o26">
+<o:ReferenceSymbol Id="o27">
 <a:ModificationDate>1488279703</a:ModificationDate>
 <a:Rect>((-26698,-5881), (-9151,8851))</a:Rect>
 <a:ListOfPoints>((-26698,-5881),(-26698,8851),(-9151,8851))</a:ListOfPoints>
@@ -3276,16 +3292,17 @@ DESTINATION 0 Arial,8,N</a:FontList>
 SOURCE 0 Arial,8,N
 DESTINATION 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:TableSymbol Ref="o24"/>
+<o:TableSymbol Ref="o25"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:TableSymbol Ref="o8"/>
+<o:TableSymbol Ref="o9"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Reference Ref="o27"/>
+<o:Reference Ref="o28"/>
 </c:Object>
 </o:ReferenceSymbol>
-<o:TableSymbol Id="o11">
+<o:TableSymbol Id="o12">
+<a:ModificationDate>1488534932</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-42463,4281), (-28689,12671))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
@@ -3305,10 +3322,11 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Table Ref="o28"/>
+<o:Table Ref="o29"/>
 </c:Object>
 </o:TableSymbol>
-<o:TableSymbol Id="o8">
+<o:TableSymbol Id="o9">
+<a:ModificationDate>1488534932</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-15111,6117), (-3191,11585))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
@@ -3328,11 +3346,11 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Table Ref="o29"/>
+<o:Table Ref="o30"/>
 </c:Object>
 </o:TableSymbol>
-<o:TableSymbol Id="o14">
-<a:ModificationDate>1488279692</a:ModificationDate>
+<o:TableSymbol Id="o15">
+<a:ModificationDate>1488534932</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-15043,-3122), (-1809,1372))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
@@ -3352,11 +3370,11 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Table Ref="o30"/>
+<o:Table Ref="o31"/>
 </c:Object>
 </o:TableSymbol>
-<o:TableSymbol Id="o7">
-<a:ModificationDate>1488279675</a:ModificationDate>
+<o:TableSymbol Id="o8">
+<a:ModificationDate>1488534932</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-27063,14705), (-15837,19199))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
@@ -3376,11 +3394,11 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Table Ref="o31"/>
+<o:Table Ref="o32"/>
 </c:Object>
 </o:TableSymbol>
-<o:TableSymbol Id="o17">
-<a:ModificationDate>1488279695</a:ModificationDate>
+<o:TableSymbol Id="o18">
+<a:ModificationDate>1488534932</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-62003,5256), (-49697,11697))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
@@ -3400,11 +3418,11 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Table Ref="o32"/>
+<o:Table Ref="o33"/>
 </c:Object>
 </o:TableSymbol>
-<o:TableSymbol Id="o24">
-<a:ModificationDate>1488279703</a:ModificationDate>
+<o:TableSymbol Id="o25">
+<a:ModificationDate>1488534932</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
 <a:Rect>((-33272,-9252), (-20424,-2811))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
@@ -3424,17 +3442,17 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Table Ref="o33"/>
+<o:Table Ref="o34"/>
 </c:Object>
 </o:TableSymbol>
 </c:Symbols>
 </o:PhysicalDiagram>
 </c:PhysicalDiagrams>
 <c:DefaultDiagram>
-<o:PhysicalDiagram Ref="o5"/>
+<o:PhysicalDiagram Ref="o6"/>
 </c:DefaultDiagram>
 <c:Tables>
-<o:Table Id="o28">
+<o:Table Id="o29">
 <a:ObjectID>7BEE9BC9-BE90-4627-BB62-DE6FDD5D64AA</a:ObjectID>
 <a:Name>Membre</a:Name>
 <a:Code>MEMBRE</a:Code>
@@ -3446,7 +3464,7 @@ LABL 0 Arial,8,N</a:FontList>
 DAT 1488279656</a:History>
 <a:TotalSavingCurrency/>
 <c:Columns>
-<o:Column Id="o34">
+<o:Column Id="o35">
 <a:ObjectID>D6F70818-390C-4597-BD53-E4DB72150F22</a:ObjectID>
 <a:Name>idmembre</a:Name>
 <a:Code>IDMEMBRE</a:Code>
@@ -3459,7 +3477,7 @@ DAT 1488279656</a:History>
 <a:DataType>SERIAL</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o35">
+<o:Column Id="o36">
 <a:ObjectID>B12ABEB4-A067-4F5B-91E9-4D7EC2416013</a:ObjectID>
 <a:Name>nom</a:Name>
 <a:Code>NOM</a:Code>
@@ -3473,7 +3491,7 @@ DAT 1488279656</a:History>
 <a:Length>50</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o36">
+<o:Column Id="o37">
 <a:ObjectID>891FC7C1-5373-4E31-808A-DEB158B057AD</a:ObjectID>
 <a:Name>email</a:Name>
 <a:Code>EMAIL</a:Code>
@@ -3487,7 +3505,7 @@ DAT 1488279656</a:History>
 <a:Length>50</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o37">
+<o:Column Id="o38">
 <a:ObjectID>CE4A57E0-A2D0-480D-A618-856C1A056A0F</a:ObjectID>
 <a:Name>code</a:Name>
 <a:Code>CODE</a:Code>
@@ -3501,7 +3519,7 @@ DAT 1488279656</a:History>
 <a:Length>32</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o38">
+<o:Column Id="o39">
 <a:ObjectID>7A8F06ED-80E6-4FE2-9D02-1F7FAA00DBA6</a:ObjectID>
 <a:Name>datenaissance</a:Name>
 <a:Code>DATENAISSANCE</a:Code>
@@ -3514,7 +3532,7 @@ DAT 1488279656</a:History>
 <a:DataType>DATE</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o39">
+<o:Column Id="o40">
 <a:ObjectID>8B3ADFE1-180F-40F9-B45F-33F85405C507</a:ObjectID>
 <a:Name>dateinscription</a:Name>
 <a:Code>DATEINSCRIPTION</a:Code>
@@ -3527,7 +3545,7 @@ DAT 1488279656</a:History>
 <a:DataType>DATE</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o40">
+<o:Column Id="o41">
 <a:ObjectID>461F6E25-4559-4C12-BD23-D0D2C65E575E</a:ObjectID>
 <a:Name>sexe</a:Name>
 <a:Code>SEXE</a:Code>
@@ -3543,7 +3561,7 @@ DAT 1488279656</a:History>
 </o:Column>
 </c:Columns>
 <c:Keys>
-<o:Key Id="o41">
+<o:Key Id="o42">
 <a:ObjectID>79B9C471-4023-4C04-A340-551547101891</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -3554,12 +3572,12 @@ DAT 1488279656</a:History>
 <a:History>ORG {C8530110-E2C4-479D-A427-8E3163A4FB05}
 DAT 1488279656</a:History>
 <c:Key.Columns>
-<o:Column Ref="o34"/>
+<o:Column Ref="o35"/>
 </c:Key.Columns>
 </o:Key>
 </c:Keys>
 <c:Indexes>
-<o:Index Id="o42">
+<o:Index Id="o43">
 <a:ObjectID>06FD3386-13BE-4B88-87F0-B7D3880AC107</a:ObjectID>
 <a:Name>MEMBRE_PK</a:Name>
 <a:Code>MEMBRE_PK</a:Code>
@@ -3569,27 +3587,27 @@ DAT 1488279656</a:History>
 <a:Modifier>ITU</a:Modifier>
 <a:Unique>1</a:Unique>
 <c:LinkedObject>
-<o:Key Ref="o41"/>
+<o:Key Ref="o42"/>
 </c:LinkedObject>
 <c:IndexColumns>
-<o:IndexColumn Id="o43">
+<o:IndexColumn Id="o44">
 <a:ObjectID>EAA8B78A-1971-46DF-BF5C-698F695578A1</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <c:Column>
-<o:Column Ref="o34"/>
+<o:Column Ref="o35"/>
 </c:Column>
 </o:IndexColumn>
 </c:IndexColumns>
 </o:Index>
 </c:Indexes>
 <c:PrimaryKey>
-<o:Key Ref="o41"/>
+<o:Key Ref="o42"/>
 </c:PrimaryKey>
 </o:Table>
-<o:Table Id="o29">
+<o:Table Id="o30">
 <a:ObjectID>B3325AE8-790F-4922-B48D-9DCC3BF2FA9E</a:ObjectID>
 <a:Name>Publication</a:Name>
 <a:Code>PUBLICATION</a:Code>
@@ -3601,7 +3619,7 @@ DAT 1488279656</a:History>
 DAT 1488279656</a:History>
 <a:TotalSavingCurrency/>
 <c:Columns>
-<o:Column Id="o44">
+<o:Column Id="o45">
 <a:ObjectID>341A8B63-18D7-4E09-9665-A6CBD29D97C1</a:ObjectID>
 <a:Name>idpublication</a:Name>
 <a:Code>IDPUBLICATION</a:Code>
@@ -3614,7 +3632,7 @@ DAT 1488279656</a:History>
 <a:DataType>SERIAL</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o45">
+<o:Column Id="o46">
 <a:ObjectID>3C0AD050-0886-49DA-9B72-26E42421EF72</a:ObjectID>
 <a:Name>idmembre</a:Name>
 <a:Code>IDMEMBRE</a:Code>
@@ -3628,7 +3646,7 @@ DAT 1488279656</a:History>
 <a:Length>4</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o46">
+<o:Column Id="o47">
 <a:ObjectID>EF0E71A7-9765-4AA7-BC4A-CE1D524FF974</a:ObjectID>
 <a:Name>contenu</a:Name>
 <a:Code>CONTENU</a:Code>
@@ -3641,7 +3659,7 @@ DAT 1488279656</a:History>
 <a:DataType>TEXT</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o47">
+<o:Column Id="o48">
 <a:ObjectID>86EE9336-9C9D-4173-8D1E-E3130FCF91F1</a:ObjectID>
 <a:Name>datepublication</a:Name>
 <a:Code>DATEPUBLICATION</a:Code>
@@ -3656,7 +3674,7 @@ DAT 1488279656</a:History>
 </o:Column>
 </c:Columns>
 <c:Keys>
-<o:Key Id="o48">
+<o:Key Id="o49">
 <a:ObjectID>7BE8F4E3-463B-461B-9E4F-0CEF87C111CB</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -3667,12 +3685,12 @@ DAT 1488279656</a:History>
 <a:History>ORG {AE5EFEE4-A1EC-47C0-ACC1-8B9EA00EEB46}
 DAT 1488279656</a:History>
 <c:Key.Columns>
-<o:Column Ref="o44"/>
+<o:Column Ref="o45"/>
 </c:Key.Columns>
 </o:Key>
 </c:Keys>
 <c:Indexes>
-<o:Index Id="o49">
+<o:Index Id="o50">
 <a:ObjectID>DB48E80C-DC9F-48D2-995C-DC9CC72F6323</a:ObjectID>
 <a:Name>PUBLICATION_PK</a:Name>
 <a:Code>PUBLICATION_PK</a:Code>
@@ -3682,35 +3700,11 @@ DAT 1488279656</a:History>
 <a:Modifier>ITU</a:Modifier>
 <a:Unique>1</a:Unique>
 <c:LinkedObject>
-<o:Key Ref="o48"/>
+<o:Key Ref="o49"/>
 </c:LinkedObject>
 <c:IndexColumns>
-<o:IndexColumn Id="o50">
+<o:IndexColumn Id="o51">
 <a:ObjectID>A4F98BA4-E99C-4E47-8C18-C36E9B0CF6B8</a:ObjectID>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:Column>
-<o:Column Ref="o44"/>
-</c:Column>
-</o:IndexColumn>
-</c:IndexColumns>
-</o:Index>
-<o:Index Id="o51">
-<a:ObjectID>535D0510-08D5-42CA-BF2E-C939BF028E7B</a:ObjectID>
-<a:Name>PUBLIEUR_FK</a:Name>
-<a:Code>PUBLIEUR_FK</a:Code>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:LinkedObject>
-<o:Reference Ref="o22"/>
-</c:LinkedObject>
-<c:IndexColumns>
-<o:IndexColumn Id="o52">
-<a:ObjectID>6D8CC798-B0A7-400B-8080-8ED216403D52</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
@@ -3721,12 +3715,36 @@ DAT 1488279656</a:History>
 </o:IndexColumn>
 </c:IndexColumns>
 </o:Index>
+<o:Index Id="o52">
+<a:ObjectID>535D0510-08D5-42CA-BF2E-C939BF028E7B</a:ObjectID>
+<a:Name>PUBLIEUR_FK</a:Name>
+<a:Code>PUBLIEUR_FK</a:Code>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o23"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o53">
+<a:ObjectID>6D8CC798-B0A7-400B-8080-8ED216403D52</a:ObjectID>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:Column>
+<o:Column Ref="o46"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
 </c:Indexes>
 <c:PrimaryKey>
-<o:Key Ref="o48"/>
+<o:Key Ref="o49"/>
 </c:PrimaryKey>
 </o:Table>
-<o:Table Id="o30">
+<o:Table Id="o31">
 <a:ObjectID>5B149300-5C7B-40FC-B869-4DA6A30649DE</a:ObjectID>
 <a:Name>Image</a:Name>
 <a:Code>IMAGE</a:Code>
@@ -3738,7 +3756,7 @@ DAT 1488279656</a:History>
 DAT 1488279656</a:History>
 <a:TotalSavingCurrency/>
 <c:Columns>
-<o:Column Id="o53">
+<o:Column Id="o54">
 <a:ObjectID>60D0D514-C6A2-4D63-B1C5-96A8B0F96F59</a:ObjectID>
 <a:Name>idimage</a:Name>
 <a:Code>IDIMAGE</a:Code>
@@ -3751,7 +3769,7 @@ DAT 1488279656</a:History>
 <a:DataType>SERIAL</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o54">
+<o:Column Id="o55">
 <a:ObjectID>CB119E50-2E5A-46E4-959C-46FF9680EA21</a:ObjectID>
 <a:Name>idpublication</a:Name>
 <a:Code>IDPUBLICATION</a:Code>
@@ -3765,7 +3783,7 @@ DAT 1488279656</a:History>
 <a:Length>4</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o55">
+<o:Column Id="o56">
 <a:ObjectID>CB589A4B-D219-4B45-80BE-7D8DB5097B90</a:ObjectID>
 <a:Name>chemin</a:Name>
 <a:Code>CHEMIN</a:Code>
@@ -3781,7 +3799,7 @@ DAT 1488279656</a:History>
 </o:Column>
 </c:Columns>
 <c:Keys>
-<o:Key Id="o56">
+<o:Key Id="o57">
 <a:ObjectID>F4A8E97F-A139-4F62-BDF0-8C5653BC624E</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -3792,12 +3810,12 @@ DAT 1488279656</a:History>
 <a:History>ORG {5080D897-2142-482B-BE5D-D5B5654AADA0}
 DAT 1488279656</a:History>
 <c:Key.Columns>
-<o:Column Ref="o53"/>
+<o:Column Ref="o54"/>
 </c:Key.Columns>
 </o:Key>
 </c:Keys>
 <c:Indexes>
-<o:Index Id="o57">
+<o:Index Id="o58">
 <a:ObjectID>F813DF96-F971-4893-B384-72C5F2D0C7EA</a:ObjectID>
 <a:Name>IMAGE_PK</a:Name>
 <a:Code>IMAGE_PK</a:Code>
@@ -3807,35 +3825,11 @@ DAT 1488279656</a:History>
 <a:Modifier>ITU</a:Modifier>
 <a:Unique>1</a:Unique>
 <c:LinkedObject>
-<o:Key Ref="o56"/>
+<o:Key Ref="o57"/>
 </c:LinkedObject>
 <c:IndexColumns>
-<o:IndexColumn Id="o58">
+<o:IndexColumn Id="o59">
 <a:ObjectID>BF21BD6E-5ED9-4649-9418-7FEF1237CCC1</a:ObjectID>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:Column>
-<o:Column Ref="o53"/>
-</c:Column>
-</o:IndexColumn>
-</c:IndexColumns>
-</o:Index>
-<o:Index Id="o59">
-<a:ObjectID>84C3EB60-BC7D-4F6F-B266-27789ED617CF</a:ObjectID>
-<a:Name>IMAGE_PUBLIEE_FK</a:Name>
-<a:Code>IMAGE_PUBLIEE_FK</a:Code>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:LinkedObject>
-<o:Reference Ref="o15"/>
-</c:LinkedObject>
-<c:IndexColumns>
-<o:IndexColumn Id="o60">
-<a:ObjectID>AEBE0DA8-F978-4EBF-BA72-CCDD73A4A591</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
@@ -3846,12 +3840,36 @@ DAT 1488279656</a:History>
 </o:IndexColumn>
 </c:IndexColumns>
 </o:Index>
+<o:Index Id="o60">
+<a:ObjectID>84C3EB60-BC7D-4F6F-B266-27789ED617CF</a:ObjectID>
+<a:Name>IMAGE_PUBLIEE_FK</a:Name>
+<a:Code>IMAGE_PUBLIEE_FK</a:Code>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o16"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o61">
+<a:ObjectID>AEBE0DA8-F978-4EBF-BA72-CCDD73A4A591</a:ObjectID>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:Column>
+<o:Column Ref="o55"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
 </c:Indexes>
 <c:PrimaryKey>
-<o:Key Ref="o56"/>
+<o:Key Ref="o57"/>
 </c:PrimaryKey>
 </o:Table>
-<o:Table Id="o31">
+<o:Table Id="o32">
 <a:ObjectID>1F8FAAC3-840F-4E0C-9BA8-0408619954C0</a:ObjectID>
 <a:Name>Jaime</a:Name>
 <a:Code>JAIME</a:Code>
@@ -3863,7 +3881,7 @@ DAT 1488279656</a:History>
 DAT 1488279656</a:History>
 <a:TotalSavingCurrency/>
 <c:Columns>
-<o:Column Id="o61">
+<o:Column Id="o62">
 <a:ObjectID>2CEDDC54-4213-4FE0-9591-FCC413ADC47B</a:ObjectID>
 <a:Name>idjaime</a:Name>
 <a:Code>IDJAIME</a:Code>
@@ -3876,7 +3894,7 @@ DAT 1488279656</a:History>
 <a:DataType>SERIAL</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o62">
+<o:Column Id="o63">
 <a:ObjectID>548AC9E5-E4BA-4B92-A6FB-D4FDC7CFCBE6</a:ObjectID>
 <a:Name>idpublication</a:Name>
 <a:Code>IDPUBLICATION</a:Code>
@@ -3890,7 +3908,7 @@ DAT 1488279656</a:History>
 <a:Length>4</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o63">
+<o:Column Id="o64">
 <a:ObjectID>97770491-1B12-4FA7-BCBD-7BD5F0B2BB34</a:ObjectID>
 <a:Name>idmembre</a:Name>
 <a:Code>IDMEMBRE</a:Code>
@@ -3906,7 +3924,7 @@ DAT 1488279656</a:History>
 </o:Column>
 </c:Columns>
 <c:Keys>
-<o:Key Id="o64">
+<o:Key Id="o65">
 <a:ObjectID>40A0E4FC-C972-48FF-895D-D315E96A55C0</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -3917,12 +3935,12 @@ DAT 1488279656</a:History>
 <a:History>ORG {3752997C-36C6-4861-A988-A64F2196B4EF}
 DAT 1488279656</a:History>
 <c:Key.Columns>
-<o:Column Ref="o61"/>
+<o:Column Ref="o62"/>
 </c:Key.Columns>
 </o:Key>
 </c:Keys>
 <c:Indexes>
-<o:Index Id="o65">
+<o:Index Id="o66">
 <a:ObjectID>3A7F09D8-001B-47BF-90DB-944F1AAF8FC6</a:ObjectID>
 <a:Name>JAIME_PK</a:Name>
 <a:Code>JAIME_PK</a:Code>
@@ -3932,35 +3950,11 @@ DAT 1488279656</a:History>
 <a:Modifier>ITU</a:Modifier>
 <a:Unique>1</a:Unique>
 <c:LinkedObject>
-<o:Key Ref="o64"/>
+<o:Key Ref="o65"/>
 </c:LinkedObject>
 <c:IndexColumns>
-<o:IndexColumn Id="o66">
+<o:IndexColumn Id="o67">
 <a:ObjectID>1D3B6EE9-D47A-405B-9C7D-E198D97BA3A0</a:ObjectID>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:Column>
-<o:Column Ref="o61"/>
-</c:Column>
-</o:IndexColumn>
-</c:IndexColumns>
-</o:Index>
-<o:Index Id="o67">
-<a:ObjectID>7FC38B4A-E34C-4A78-BA62-FF188D232975</a:ObjectID>
-<a:Name>PUBLICATION_AIMEE_FK</a:Name>
-<a:Code>PUBLICATION_AIMEE_FK</a:Code>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:LinkedObject>
-<o:Reference Ref="o9"/>
-</c:LinkedObject>
-<c:IndexColumns>
-<o:IndexColumn Id="o68">
-<a:ObjectID>779E8E67-C0CA-4101-9BCF-22B7738B7AB2</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
@@ -3971,20 +3965,20 @@ DAT 1488279656</a:History>
 </o:IndexColumn>
 </c:IndexColumns>
 </o:Index>
-<o:Index Id="o69">
-<a:ObjectID>66986ACE-E3E1-42F3-8875-EE470B7F8CA6</a:ObjectID>
-<a:Name>MEMBRE_AIME_FK</a:Name>
-<a:Code>MEMBRE_AIME_FK</a:Code>
+<o:Index Id="o68">
+<a:ObjectID>7FC38B4A-E34C-4A78-BA62-FF188D232975</a:ObjectID>
+<a:Name>PUBLICATION_AIMEE_FK</a:Name>
+<a:Code>PUBLICATION_AIMEE_FK</a:Code>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <c:LinkedObject>
-<o:Reference Ref="o12"/>
+<o:Reference Ref="o10"/>
 </c:LinkedObject>
 <c:IndexColumns>
-<o:IndexColumn Id="o70">
-<a:ObjectID>225D6BC3-BFCA-47B6-8678-B5CA98D1830B</a:ObjectID>
+<o:IndexColumn Id="o69">
+<a:ObjectID>779E8E67-C0CA-4101-9BCF-22B7738B7AB2</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
@@ -3995,12 +3989,36 @@ DAT 1488279656</a:History>
 </o:IndexColumn>
 </c:IndexColumns>
 </o:Index>
+<o:Index Id="o70">
+<a:ObjectID>66986ACE-E3E1-42F3-8875-EE470B7F8CA6</a:ObjectID>
+<a:Name>MEMBRE_AIME_FK</a:Name>
+<a:Code>MEMBRE_AIME_FK</a:Code>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o13"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o71">
+<a:ObjectID>225D6BC3-BFCA-47B6-8678-B5CA98D1830B</a:ObjectID>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:Column>
+<o:Column Ref="o64"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
 </c:Indexes>
 <c:PrimaryKey>
-<o:Key Ref="o64"/>
+<o:Key Ref="o65"/>
 </c:PrimaryKey>
 </o:Table>
-<o:Table Id="o32">
+<o:Table Id="o33">
 <a:ObjectID>034F0CB0-AD0C-481C-AA0A-BED18FC51C1E</a:ObjectID>
 <a:Name>Amitie</a:Name>
 <a:Code>AMITIE</a:Code>
@@ -4012,7 +4030,7 @@ DAT 1488279656</a:History>
 DAT 1488279656</a:History>
 <a:TotalSavingCurrency/>
 <c:Columns>
-<o:Column Id="o71">
+<o:Column Id="o72">
 <a:ObjectID>FCB75952-7F1A-4DEE-86B1-F4A4DED64647</a:ObjectID>
 <a:Name>idamitie</a:Name>
 <a:Code>IDAMITIE</a:Code>
@@ -4025,7 +4043,7 @@ DAT 1488279656</a:History>
 <a:DataType>SERIAL</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o72">
+<o:Column Id="o73">
 <a:ObjectID>B5907606-83AA-4BAB-A342-9AE614D5E5A9</a:ObjectID>
 <a:Name>iddemandeur</a:Name>
 <a:Code>IDDEMANDEUR</a:Code>
@@ -4041,7 +4059,7 @@ ATT CODE</a:History>
 <a:Length>4</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o73">
+<o:Column Id="o74">
 <a:ObjectID>27AF6932-7B02-4530-AC2E-9EFB9ECEE718</a:ObjectID>
 <a:Name>idrecepteur</a:Name>
 <a:Code>IDRECEPTEUR</a:Code>
@@ -4057,7 +4075,7 @@ ATT CODE</a:History>
 <a:Length>4</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o74">
+<o:Column Id="o75">
 <a:ObjectID>E426F2F0-0A94-4FC3-940B-EC7A8A9BA0B5</a:ObjectID>
 <a:Name>datedemande</a:Name>
 <a:Code>DATEDEMANDE</a:Code>
@@ -4070,7 +4088,7 @@ DAT 1488279656</a:History>
 <a:DataType>DATE</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o75">
+<o:Column Id="o76">
 <a:ObjectID>6B1CBBC6-B269-4891-B6A1-38F3046020CF</a:ObjectID>
 <a:Name>dateacceptation</a:Name>
 <a:Code>DATEACCEPTATION</a:Code>
@@ -4084,7 +4102,7 @@ DAT 1488279656</a:History>
 </o:Column>
 </c:Columns>
 <c:Keys>
-<o:Key Id="o76">
+<o:Key Id="o77">
 <a:ObjectID>D8DCCBCF-B470-479E-8EAA-8D49F052B434</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -4095,12 +4113,12 @@ DAT 1488279656</a:History>
 <a:History>ORG {43769777-465F-44F2-90FF-DFB531204693}
 DAT 1488279656</a:History>
 <c:Key.Columns>
-<o:Column Ref="o71"/>
+<o:Column Ref="o72"/>
 </c:Key.Columns>
 </o:Key>
 </c:Keys>
 <c:Indexes>
-<o:Index Id="o77">
+<o:Index Id="o78">
 <a:ObjectID>D163EC92-525F-424B-B434-F574CD5795CF</a:ObjectID>
 <a:Name>AMITIE_PK</a:Name>
 <a:Code>AMITIE_PK</a:Code>
@@ -4110,35 +4128,11 @@ DAT 1488279656</a:History>
 <a:Modifier>ITU</a:Modifier>
 <a:Unique>1</a:Unique>
 <c:LinkedObject>
-<o:Key Ref="o76"/>
+<o:Key Ref="o77"/>
 </c:LinkedObject>
 <c:IndexColumns>
-<o:IndexColumn Id="o78">
+<o:IndexColumn Id="o79">
 <a:ObjectID>96B05FF1-6978-4D01-B981-3C404582C28B</a:ObjectID>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:Column>
-<o:Column Ref="o71"/>
-</c:Column>
-</o:IndexColumn>
-</c:IndexColumns>
-</o:Index>
-<o:Index Id="o79">
-<a:ObjectID>89A8F78F-FFA2-4419-87FB-10EECA488A16</a:ObjectID>
-<a:Name>RECEPTEUR_FK</a:Name>
-<a:Code>RECEPTEUR_FK</a:Code>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:LinkedObject>
-<o:Reference Ref="o18"/>
-</c:LinkedObject>
-<c:IndexColumns>
-<o:IndexColumn Id="o80">
-<a:ObjectID>D87F4282-C61D-48E1-BC75-4B0740EFE129</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
@@ -4149,20 +4143,20 @@ DAT 1488279656</a:History>
 </o:IndexColumn>
 </c:IndexColumns>
 </o:Index>
-<o:Index Id="o81">
-<a:ObjectID>B9932860-9FDA-4180-B43D-558DF7848AEF</a:ObjectID>
-<a:Name>ENVOYEUR_FK</a:Name>
-<a:Code>ENVOYEUR_FK</a:Code>
+<o:Index Id="o80">
+<a:ObjectID>89A8F78F-FFA2-4419-87FB-10EECA488A16</a:ObjectID>
+<a:Name>RECEPTEUR_FK</a:Name>
+<a:Code>RECEPTEUR_FK</a:Code>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <c:LinkedObject>
-<o:Reference Ref="o20"/>
+<o:Reference Ref="o19"/>
 </c:LinkedObject>
 <c:IndexColumns>
-<o:IndexColumn Id="o82">
-<a:ObjectID>96B8E139-2FEC-42EA-BF82-F370A656E169</a:ObjectID>
+<o:IndexColumn Id="o81">
+<a:ObjectID>D87F4282-C61D-48E1-BC75-4B0740EFE129</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
@@ -4173,12 +4167,36 @@ DAT 1488279656</a:History>
 </o:IndexColumn>
 </c:IndexColumns>
 </o:Index>
+<o:Index Id="o82">
+<a:ObjectID>B9932860-9FDA-4180-B43D-558DF7848AEF</a:ObjectID>
+<a:Name>ENVOYEUR_FK</a:Name>
+<a:Code>ENVOYEUR_FK</a:Code>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o21"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o83">
+<a:ObjectID>96B8E139-2FEC-42EA-BF82-F370A656E169</a:ObjectID>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:Column>
+<o:Column Ref="o74"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
 </c:Indexes>
 <c:PrimaryKey>
-<o:Key Ref="o76"/>
+<o:Key Ref="o77"/>
 </c:PrimaryKey>
 </o:Table>
-<o:Table Id="o33">
+<o:Table Id="o34">
 <a:ObjectID>D608CC17-A4FF-40BA-8C9B-E9CA01C31F47</a:ObjectID>
 <a:Name>Commentaire</a:Name>
 <a:Code>COMMENTAIRE</a:Code>
@@ -4191,7 +4209,7 @@ DAT 1488279656
 MOV COLNCOL</a:History>
 <a:TotalSavingCurrency/>
 <c:Columns>
-<o:Column Id="o83">
+<o:Column Id="o84">
 <a:ObjectID>7E0CA900-7A4C-4083-9375-0579A685F0CC</a:ObjectID>
 <a:Name>idcommentaire</a:Name>
 <a:Code>IDCOMMENTAIRE</a:Code>
@@ -4204,7 +4222,7 @@ DAT 1488279656</a:History>
 <a:DataType>SERIAL</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o84">
+<o:Column Id="o85">
 <a:ObjectID>48153E89-F010-49EA-B8A8-052D40B7BC68</a:ObjectID>
 <a:Name>idpublication</a:Name>
 <a:Code>IDPUBLICATION</a:Code>
@@ -4218,7 +4236,7 @@ DAT 1488279656</a:History>
 <a:Length>4</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o85">
+<o:Column Id="o86">
 <a:ObjectID>DBC8830E-F2CD-4770-B4B8-A1E8FED81E7C</a:ObjectID>
 <a:Name>idmembre</a:Name>
 <a:Code>IDMEMBRE</a:Code>
@@ -4232,7 +4250,7 @@ DAT 1488279656</a:History>
 <a:Length>4</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o86">
+<o:Column Id="o87">
 <a:ObjectID>E2F48CB5-AFA5-469A-9A03-36C79CF9799A</a:ObjectID>
 <a:Name>contenu</a:Name>
 <a:Code>CONTENU</a:Code>
@@ -4245,7 +4263,7 @@ DAT 1488279656</a:History>
 <a:DataType>TEXT</a:DataType>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o87">
+<o:Column Id="o88">
 <a:ObjectID>145627F4-13CF-4AD7-8D52-7996ACD20359</a:ObjectID>
 <a:Name>datecommentaire</a:Name>
 <a:Code>DATECOMMENTAIRE</a:Code>
@@ -4260,7 +4278,7 @@ DAT 1488279656</a:History>
 </o:Column>
 </c:Columns>
 <c:Keys>
-<o:Key Id="o88">
+<o:Key Id="o89">
 <a:ObjectID>C586036C-ED7A-46FE-8531-EB66A6541B5D</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -4271,12 +4289,12 @@ DAT 1488279656</a:History>
 <a:History>ORG {BE5CC875-78C0-4FD5-88A6-BF06C3F12CEB}
 DAT 1488279656</a:History>
 <c:Key.Columns>
-<o:Column Ref="o83"/>
+<o:Column Ref="o84"/>
 </c:Key.Columns>
 </o:Key>
 </c:Keys>
 <c:Indexes>
-<o:Index Id="o89">
+<o:Index Id="o90">
 <a:ObjectID>5CE3128E-4DB8-42A8-9767-4C424A9F9A99</a:ObjectID>
 <a:Name>COMMENTAIRE_PK</a:Name>
 <a:Code>COMMENTAIRE_PK</a:Code>
@@ -4286,59 +4304,11 @@ DAT 1488279656</a:History>
 <a:Modifier>ITU</a:Modifier>
 <a:Unique>1</a:Unique>
 <c:LinkedObject>
-<o:Key Ref="o88"/>
+<o:Key Ref="o89"/>
 </c:LinkedObject>
 <c:IndexColumns>
-<o:IndexColumn Id="o90">
+<o:IndexColumn Id="o91">
 <a:ObjectID>11FDF490-424B-4AC6-8A3A-30DE3DD67CB6</a:ObjectID>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:Column>
-<o:Column Ref="o83"/>
-</c:Column>
-</o:IndexColumn>
-</c:IndexColumns>
-</o:Index>
-<o:Index Id="o91">
-<a:ObjectID>20F11506-7BF6-4D5E-98B4-6623B8C6D8E7</a:ObjectID>
-<a:Name>COMMENTATEUR_FK</a:Name>
-<a:Code>COMMENTATEUR_FK</a:Code>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:LinkedObject>
-<o:Reference Ref="o25"/>
-</c:LinkedObject>
-<c:IndexColumns>
-<o:IndexColumn Id="o92">
-<a:ObjectID>893D4E4F-D061-4E60-AA24-96031ECCFC2E</a:ObjectID>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:Column>
-<o:Column Ref="o85"/>
-</c:Column>
-</o:IndexColumn>
-</c:IndexColumns>
-</o:Index>
-<o:Index Id="o93">
-<a:ObjectID>D47E27C8-25C0-4E6B-A9DC-9D006C034C0E</a:ObjectID>
-<a:Name>PUBLICATION_COMMENTEE_FK</a:Name>
-<a:Code>PUBLICATION_COMMENTEE_FK</a:Code>
-<a:CreationDate>1488279656</a:CreationDate>
-<a:Creator>ITU</a:Creator>
-<a:ModificationDate>1488279656</a:ModificationDate>
-<a:Modifier>ITU</a:Modifier>
-<c:LinkedObject>
-<o:Reference Ref="o27"/>
-</c:LinkedObject>
-<c:IndexColumns>
-<o:IndexColumn Id="o94">
-<a:ObjectID>7C875635-4E87-485E-AE37-0EE27060B467</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
@@ -4349,14 +4319,62 @@ DAT 1488279656</a:History>
 </o:IndexColumn>
 </c:IndexColumns>
 </o:Index>
+<o:Index Id="o92">
+<a:ObjectID>20F11506-7BF6-4D5E-98B4-6623B8C6D8E7</a:ObjectID>
+<a:Name>COMMENTATEUR_FK</a:Name>
+<a:Code>COMMENTATEUR_FK</a:Code>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o26"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o93">
+<a:ObjectID>893D4E4F-D061-4E60-AA24-96031ECCFC2E</a:ObjectID>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:Column>
+<o:Column Ref="o86"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
+<o:Index Id="o94">
+<a:ObjectID>D47E27C8-25C0-4E6B-A9DC-9D006C034C0E</a:ObjectID>
+<a:Name>PUBLICATION_COMMENTEE_FK</a:Name>
+<a:Code>PUBLICATION_COMMENTEE_FK</a:Code>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:LinkedObject>
+<o:Reference Ref="o28"/>
+</c:LinkedObject>
+<c:IndexColumns>
+<o:IndexColumn Id="o95">
+<a:ObjectID>7C875635-4E87-485E-AE37-0EE27060B467</a:ObjectID>
+<a:CreationDate>1488279656</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488279656</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<c:Column>
+<o:Column Ref="o85"/>
+</c:Column>
+</o:IndexColumn>
+</c:IndexColumns>
+</o:Index>
 </c:Indexes>
 <c:PrimaryKey>
-<o:Key Ref="o88"/>
+<o:Key Ref="o89"/>
 </c:PrimaryKey>
 </o:Table>
 </c:Tables>
 <c:References>
-<o:Reference Id="o9">
+<o:Reference Id="o10">
 <a:ObjectID>7FFC73D9-DFE3-4839-B023-A263B3DC7F13</a:ObjectID>
 <a:Name>publication_aimee</a:Name>
 <a:Code>PUBLICATION_AIMEE</a:Code>
@@ -4371,31 +4389,31 @@ ATT MAND</a:History>
 <a:UpdateConstraint>1</a:UpdateConstraint>
 <a:DeleteConstraint>1</a:DeleteConstraint>
 <c:ParentTable>
-<o:Table Ref="o29"/>
+<o:Table Ref="o30"/>
 </c:ParentTable>
 <c:ChildTable>
-<o:Table Ref="o31"/>
+<o:Table Ref="o32"/>
 </c:ChildTable>
 <c:ParentKey>
-<o:Key Ref="o48"/>
+<o:Key Ref="o49"/>
 </c:ParentKey>
 <c:Joins>
-<o:ReferenceJoin Id="o95">
+<o:ReferenceJoin Id="o96">
 <a:ObjectID>DC99F642-F01E-412B-B535-73789BC32C95</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <c:Object1>
-<o:Column Ref="o44"/>
+<o:Column Ref="o45"/>
 </c:Object1>
 <c:Object2>
-<o:Column Ref="o62"/>
+<o:Column Ref="o63"/>
 </c:Object2>
 </o:ReferenceJoin>
 </c:Joins>
 </o:Reference>
-<o:Reference Id="o12">
+<o:Reference Id="o13">
 <a:ObjectID>874AD333-E11F-4CD2-AAA1-25214CD4868B</a:ObjectID>
 <a:Name>membre_aime</a:Name>
 <a:Code>MEMBRE_AIME</a:Code>
@@ -4410,31 +4428,31 @@ ATT MAND</a:History>
 <a:UpdateConstraint>1</a:UpdateConstraint>
 <a:DeleteConstraint>1</a:DeleteConstraint>
 <c:ParentTable>
-<o:Table Ref="o28"/>
+<o:Table Ref="o29"/>
 </c:ParentTable>
 <c:ChildTable>
-<o:Table Ref="o31"/>
+<o:Table Ref="o32"/>
 </c:ChildTable>
 <c:ParentKey>
-<o:Key Ref="o41"/>
+<o:Key Ref="o42"/>
 </c:ParentKey>
 <c:Joins>
-<o:ReferenceJoin Id="o96">
+<o:ReferenceJoin Id="o97">
 <a:ObjectID>7DDFD571-4C73-43CA-B41D-BC785BF8D3AD</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <c:Object1>
-<o:Column Ref="o34"/>
+<o:Column Ref="o35"/>
 </c:Object1>
 <c:Object2>
-<o:Column Ref="o63"/>
+<o:Column Ref="o64"/>
 </c:Object2>
 </o:ReferenceJoin>
 </c:Joins>
 </o:Reference>
-<o:Reference Id="o15">
+<o:Reference Id="o16">
 <a:ObjectID>B65A279E-0D04-47DD-A75E-8FA5E9BA1D8F</a:ObjectID>
 <a:Name>image_publiee</a:Name>
 <a:Code>IMAGE_PUBLIEE</a:Code>
@@ -4449,31 +4467,31 @@ ATT MAND</a:History>
 <a:UpdateConstraint>1</a:UpdateConstraint>
 <a:DeleteConstraint>1</a:DeleteConstraint>
 <c:ParentTable>
-<o:Table Ref="o29"/>
+<o:Table Ref="o30"/>
 </c:ParentTable>
 <c:ChildTable>
-<o:Table Ref="o30"/>
+<o:Table Ref="o31"/>
 </c:ChildTable>
 <c:ParentKey>
-<o:Key Ref="o48"/>
+<o:Key Ref="o49"/>
 </c:ParentKey>
 <c:Joins>
-<o:ReferenceJoin Id="o97">
+<o:ReferenceJoin Id="o98">
 <a:ObjectID>DC0D4DCA-0E5C-4802-8DDD-1BB245ACD320</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <c:Object1>
-<o:Column Ref="o44"/>
+<o:Column Ref="o45"/>
 </c:Object1>
 <c:Object2>
-<o:Column Ref="o54"/>
+<o:Column Ref="o55"/>
 </c:Object2>
 </o:ReferenceJoin>
 </c:Joins>
 </o:Reference>
-<o:Reference Id="o18">
+<o:Reference Id="o19">
 <a:ObjectID>FE711EF5-F941-4501-8C5C-15A010BF8EEA</a:ObjectID>
 <a:Name>recepteur</a:Name>
 <a:Code>RECEPTEUR</a:Code>
@@ -4488,31 +4506,31 @@ ATT MAND</a:History>
 <a:UpdateConstraint>1</a:UpdateConstraint>
 <a:DeleteConstraint>1</a:DeleteConstraint>
 <c:ParentTable>
-<o:Table Ref="o28"/>
+<o:Table Ref="o29"/>
 </c:ParentTable>
 <c:ChildTable>
-<o:Table Ref="o32"/>
+<o:Table Ref="o33"/>
 </c:ChildTable>
 <c:ParentKey>
-<o:Key Ref="o41"/>
+<o:Key Ref="o42"/>
 </c:ParentKey>
 <c:Joins>
-<o:ReferenceJoin Id="o98">
+<o:ReferenceJoin Id="o99">
 <a:ObjectID>160F2CCC-426A-42CC-881D-70B5EB87AD31</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <c:Object1>
-<o:Column Ref="o34"/>
+<o:Column Ref="o35"/>
 </c:Object1>
 <c:Object2>
-<o:Column Ref="o72"/>
+<o:Column Ref="o73"/>
 </c:Object2>
 </o:ReferenceJoin>
 </c:Joins>
 </o:Reference>
-<o:Reference Id="o20">
+<o:Reference Id="o21">
 <a:ObjectID>7462E821-6BA8-4858-A600-2004F1789930</a:ObjectID>
 <a:Name>envoyeur</a:Name>
 <a:Code>ENVOYEUR</a:Code>
@@ -4527,31 +4545,31 @@ ATT MAND</a:History>
 <a:UpdateConstraint>1</a:UpdateConstraint>
 <a:DeleteConstraint>1</a:DeleteConstraint>
 <c:ParentTable>
-<o:Table Ref="o28"/>
+<o:Table Ref="o29"/>
 </c:ParentTable>
 <c:ChildTable>
-<o:Table Ref="o32"/>
+<o:Table Ref="o33"/>
 </c:ChildTable>
 <c:ParentKey>
-<o:Key Ref="o41"/>
+<o:Key Ref="o42"/>
 </c:ParentKey>
 <c:Joins>
-<o:ReferenceJoin Id="o99">
+<o:ReferenceJoin Id="o100">
 <a:ObjectID>4AF3E5DF-E1E3-4689-A382-1718FEF52D68</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <c:Object1>
-<o:Column Ref="o34"/>
+<o:Column Ref="o35"/>
 </c:Object1>
 <c:Object2>
-<o:Column Ref="o73"/>
+<o:Column Ref="o74"/>
 </c:Object2>
 </o:ReferenceJoin>
 </c:Joins>
 </o:Reference>
-<o:Reference Id="o22">
+<o:Reference Id="o23">
 <a:ObjectID>0743DD1F-E08F-4EDD-A50A-89A6245F66F4</a:ObjectID>
 <a:Name>publieur</a:Name>
 <a:Code>PUBLIEUR</a:Code>
@@ -4566,31 +4584,31 @@ ATT MAND</a:History>
 <a:UpdateConstraint>1</a:UpdateConstraint>
 <a:DeleteConstraint>1</a:DeleteConstraint>
 <c:ParentTable>
-<o:Table Ref="o28"/>
+<o:Table Ref="o29"/>
 </c:ParentTable>
 <c:ChildTable>
-<o:Table Ref="o29"/>
+<o:Table Ref="o30"/>
 </c:ChildTable>
 <c:ParentKey>
-<o:Key Ref="o41"/>
+<o:Key Ref="o42"/>
 </c:ParentKey>
 <c:Joins>
-<o:ReferenceJoin Id="o100">
+<o:ReferenceJoin Id="o101">
 <a:ObjectID>627986DD-D9EB-45AE-83A4-EF1651564FC3</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <c:Object1>
-<o:Column Ref="o34"/>
+<o:Column Ref="o35"/>
 </c:Object1>
 <c:Object2>
-<o:Column Ref="o45"/>
+<o:Column Ref="o46"/>
 </c:Object2>
 </o:ReferenceJoin>
 </c:Joins>
 </o:Reference>
-<o:Reference Id="o25">
+<o:Reference Id="o26">
 <a:ObjectID>6524C366-C597-4241-AFE0-ADE22DCD0CEE</a:ObjectID>
 <a:Name>commentateur</a:Name>
 <a:Code>COMMENTATEUR</a:Code>
@@ -4605,31 +4623,31 @@ ATT MAND</a:History>
 <a:UpdateConstraint>1</a:UpdateConstraint>
 <a:DeleteConstraint>1</a:DeleteConstraint>
 <c:ParentTable>
-<o:Table Ref="o28"/>
+<o:Table Ref="o29"/>
 </c:ParentTable>
 <c:ChildTable>
-<o:Table Ref="o33"/>
+<o:Table Ref="o34"/>
 </c:ChildTable>
 <c:ParentKey>
-<o:Key Ref="o41"/>
+<o:Key Ref="o42"/>
 </c:ParentKey>
 <c:Joins>
-<o:ReferenceJoin Id="o101">
+<o:ReferenceJoin Id="o102">
 <a:ObjectID>ADAAF171-2FFE-428C-B26A-18DF32E255BF</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <c:Object1>
-<o:Column Ref="o34"/>
+<o:Column Ref="o35"/>
 </c:Object1>
 <c:Object2>
-<o:Column Ref="o85"/>
+<o:Column Ref="o86"/>
 </c:Object2>
 </o:ReferenceJoin>
 </c:Joins>
 </o:Reference>
-<o:Reference Id="o27">
+<o:Reference Id="o28">
 <a:ObjectID>7E80FF4A-B2DA-4F10-9B7F-C7896EA90711</a:ObjectID>
 <a:Name>publication_commentee</a:Name>
 <a:Code>PUBLICATION_COMMENTEE</a:Code>
@@ -4644,33 +4662,33 @@ ATT MAND</a:History>
 <a:UpdateConstraint>1</a:UpdateConstraint>
 <a:DeleteConstraint>1</a:DeleteConstraint>
 <c:ParentTable>
-<o:Table Ref="o29"/>
+<o:Table Ref="o30"/>
 </c:ParentTable>
 <c:ChildTable>
-<o:Table Ref="o33"/>
+<o:Table Ref="o34"/>
 </c:ChildTable>
 <c:ParentKey>
-<o:Key Ref="o48"/>
+<o:Key Ref="o49"/>
 </c:ParentKey>
 <c:Joins>
-<o:ReferenceJoin Id="o102">
+<o:ReferenceJoin Id="o103">
 <a:ObjectID>F9AC6587-FA35-40B7-AFC6-5511ADE3FABB</a:ObjectID>
 <a:CreationDate>1488279656</a:CreationDate>
 <a:Creator>ITU</a:Creator>
 <a:ModificationDate>1488279656</a:ModificationDate>
 <a:Modifier>ITU</a:Modifier>
 <c:Object1>
-<o:Column Ref="o44"/>
+<o:Column Ref="o45"/>
 </c:Object1>
 <c:Object2>
-<o:Column Ref="o84"/>
+<o:Column Ref="o85"/>
 </c:Object2>
 </o:ReferenceJoin>
 </c:Joins>
 </o:Reference>
 </c:References>
 <c:DefaultGroups>
-<o:Group Id="o103">
+<o:Group Id="o104">
 <a:ObjectID>6AB41455-4A50-48F0-A6F8-8E7B138E1295</a:ObjectID>
 <a:Name>PUBLIC</a:Name>
 <a:Code>PUBLIC</a:Code>
@@ -4681,7 +4699,7 @@ ATT MAND</a:History>
 </o:Group>
 </c:DefaultGroups>
 <c:TargetModels>
-<o:TargetModel Id="o104">
+<o:TargetModel Id="o105">
 <a:ObjectID>6F81B9F8-B5C3-47CC-B3CA-A0EF6A4A9FAB</a:ObjectID>
 <a:Name>PostgreSQL 8</a:Name>
 <a:Code>PGSQL80</a:Code>
@@ -4693,10 +4711,10 @@ ATT MAND</a:History>
 <a:TargetModelID>8AF15AEA-CCBC-4EDC-B468-7DB8DB5300B2</a:TargetModelID>
 <a:TargetModelClassID>4BA9F647-DAB1-11D1-9944-006097355D9B</a:TargetModelClassID>
 <c:SessionShortcuts>
-<o:Shortcut Ref="o4"/>
+<o:Shortcut Ref="o5"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o105">
+<o:TargetModel Id="o106">
 <a:ObjectID>3D0F61AB-0A86-4C0E-9DB4-2BD017FA6765</a:ObjectID>
 <a:Name>RS S6</a:Name>
 <a:Code>RS_S6</a:Code>
@@ -4708,6 +4726,21 @@ ATT MAND</a:History>
 <a:TargetModelURL>file:///D|/ITU/S6/Framework/Projet RS/MCD/RS S6.mcd</a:TargetModelURL>
 <a:TargetModelID>91BF26B5-C692-45D3-BCE5-9A45FD670728</a:TargetModelID>
 <a:TargetModelClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o4"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o107">
+<a:ObjectID>F6A326FD-10CE-4E1C-ABD8-FB628AEFCE2C</a:ObjectID>
+<a:Name>RS S6</a:Name>
+<a:Code>RS_S6</a:Code>
+<a:CreationDate>1488534934</a:CreationDate>
+<a:Creator>ITU</a:Creator>
+<a:ModificationDate>1488534942</a:ModificationDate>
+<a:Modifier>ITU</a:Modifier>
+<a:TargetModelURL>file:///D|/ITU/S6/Framework/Projet RS/MCD/RS S6.moo</a:TargetModelURL>
+<a:TargetModelID>32B267F0-0952-4887-8FB3-0755B02AD93C</a:TargetModelID>
+<a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
