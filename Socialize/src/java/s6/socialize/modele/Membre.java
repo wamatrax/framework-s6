@@ -3,7 +3,6 @@ package s6.socialize.modele;
 import java.util.Date;
 import java.util.ArrayList;
 
-
 public class Membre {
     private long idmembre;
     private String nom;
