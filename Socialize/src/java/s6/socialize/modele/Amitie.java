@@ -8,4 +8,7 @@ public class Amitie {
     private Date dateacceptation;
     private Membre demandeur;
     private Membre recepteur;
+    
+    /* Setters */
+    
 }

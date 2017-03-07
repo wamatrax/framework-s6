@@ -3,6 +3,7 @@ package s6.socialize.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import s6.socialize.modele.Amitie;
@@ -15,9 +16,9 @@ public class AmitieDAO {
         PreparedStatement pst = null;
         try {
             conn = UtilDB.getConnection();
-            String sql = "";
+            String sql = "insert into membre values(nextval('membre_idmembre_seq'), ? , ? , ? , ? , ? , ?)";
             pst = conn.prepareStatement(sql);
-            
+            SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
             ret = pst.executeUpdate();
         } catch(Exception e) {
             throw e;

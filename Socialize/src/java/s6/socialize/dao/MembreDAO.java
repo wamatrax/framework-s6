@@ -14,9 +14,14 @@ public class MembreDAO {
         PreparedStatement pst = null;
         try {
             conn = UtilDB.getConnection();
-            String sql = "";
+            String sql = "insert into membre values(nextval('membre_idmembre_seq'),?,?,md5(?),?,?,?)";
             pst = conn.prepareStatement(sql);
-            
+            pst.setString(1, membre.getNom());
+            pst.setString(2, membre.getEmail());
+            pst.setString(3, membre.getCode());
+            pst.setDate(4, membre.getNaisssance());
+            pst.setDate(5, membre.getInscription());
+            pst.setString(6, membre.getSexe());
             ret = pst.executeUpdate();
         } catch(Exception e) {
             throw e;
@@ -37,9 +42,9 @@ public class MembreDAO {
         PreparedStatement pst = null;
         try {
             conn = UtilDB.getConnection();
-            String sql = "";
+            String sql = "delete from membre where idmembre=?";
             pst = conn.prepareStatement(sql);
-            
+            pst.setLong(1,membre.getId());
             ret = pst.executeUpdate();
         } catch(Exception e) {
             throw e;
