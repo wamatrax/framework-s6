@@ -5,11 +5,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
-import s6.socialize.modele.Amitie;
+import s6.socialize.modele.Membre;
 
-public class AmitieDAO {
-    
-    public static int save(Amitie amitie) throws Exception {
+public class MembreDAO {
+    public static int save(Membre membre) throws Exception {
         int ret = 0;
         Connection conn = null;
         PreparedStatement pst = null;
@@ -32,7 +31,7 @@ public class AmitieDAO {
         return ret;
     }
     
-    public static int delete(Amitie amitie) throws Exception {
+    public static int delete(Membre membre) throws Exception {
         int ret = 0;
         Connection conn = null;
         PreparedStatement pst = null;
@@ -55,7 +54,7 @@ public class AmitieDAO {
         return ret;
     }
     
-    public static int update(Amitie amitie) throws Exception {
+    public static int update(Membre membre) throws Exception {
         int ret = 0;
         Connection conn = null;
         PreparedStatement pst = null;
@@ -78,8 +77,8 @@ public class AmitieDAO {
         return ret;
     }
     
-    public static Amitie findById(int id) throws Exception {
-        Amitie amitie = null;
+    public static Membre findById(int id) throws Exception {
+        Membre membre = null;
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet res = null;
@@ -105,11 +104,11 @@ public class AmitieDAO {
                 conn.close();
             }
         }
-        return amitie;
+        return membre;
     }
     
-    public static List<Amitie> findAll() throws Exception {
-        ArrayList<Amitie> amities = new ArrayList();
+    public static List<Membre> findAll() throws Exception {
+        ArrayList<Membre> membres = new ArrayList();
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet res = null;
@@ -119,10 +118,10 @@ public class AmitieDAO {
             pst = conn.prepareStatement(sql);
             
             res = pst.executeQuery();
-            Amitie amitie;
+            Membre membre;
             while(res.next()) {
                 
-                //amities.add(amitie);
+                //membres.add(membre);
             }
         } catch(Exception e) {
             throw e;
@@ -137,6 +136,6 @@ public class AmitieDAO {
                 conn.close();
             }
         }
-        return amities;
+        return membres;
     }
 }
